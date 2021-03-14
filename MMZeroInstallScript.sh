@@ -49,7 +49,7 @@ git clone https://github.com/MichMich/MagicMirror;
 
 echo 'Installing Magic Mirror Dependencies'
 cd MagicMirror;
-npm install --arch=armv7l;
+npm install --arch=armv6l;
 sudo apt install chromium-browser -y;
 sudo apt-get install xinit -y;
 sudo apt install xorg -y;
